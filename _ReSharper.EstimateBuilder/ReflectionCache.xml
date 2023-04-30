@@ -1,0 +1,15 @@
+<Assemblies Version="14">
+  <Assembly Name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="9eca609d-143e-4c34-9667-e0745884c300.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="178500cf-69bb-491a-9bf1-06b044da5731.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="d79f2f7a-5018-4727-a57d-7bab73668622.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Cache="41d6c4f4-6fd8-4ee2-a58c-8848e6b3915a.ReflectionCache" Timestamp="632936814720000000" />
+  <Assembly Name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Cache="2ab1efce-904a-4e58-9d60-1b25c6bf87ec.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Cache="5cff2918-2ab9-4d16-a45a-93bbd64af405.ReflectionCache" Timestamp="632630573180000000" />
+  <Assembly Name="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="e0448118-1add-4105-9fe2-1a8d9731b878.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="eb8e7e08-4c71-4cd7-863f-6f00fda74b51.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="Janus.Windows.UI.v2, Version=2.0.1157.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" Cache="28db7c83-41b2-4e42-8979-f976bb2be8ce.ReflectionCache" Timestamp="632503908000000000" />
+  <Assembly Name="Janus.Windows.GridEX.v2, Version=2.0.1157.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" Cache="9f2f452a-4dfb-4c1a-b980-cfed9d19a84a.ReflectionCache" Timestamp="632503907400000000" />
+  <Assembly Name="Janus.Windows.ExplorerBar.v2, Version=2.0.1157.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" Cache="c490d7f5-be43-4ddf-b408-c8a9b6383c9a.ReflectionCache" Timestamp="632503909200000000" />
+  <Assembly Name="Janus.Windows.Common.v2, Version=2.0.1157.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" Cache="ae4f435c-02cb-4a1a-ace3-555de2b1b7b6.ReflectionCache" Timestamp="632503909200000000" />
+  <Assembly Name="Janus.Windows.ButtonBar.v2, Version=2.0.1157.0, Culture=neutral, PublicKeyToken=21d5517571b185bf" Cache="824fd742-28ca-4015-b6b7-e750301983fb.ReflectionCache" Timestamp="632503909200000000" />
+</Assemblies>

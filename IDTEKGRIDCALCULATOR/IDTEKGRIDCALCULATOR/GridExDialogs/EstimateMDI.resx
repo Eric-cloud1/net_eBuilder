@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="GridEX.UseJanusEditMenu" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="gridEXLayout1.LayoutString">
+    <value xml:space="preserve">&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;CellLayoutMode&gt;UseColumnSets&lt;/CellLayoutMode&gt;&lt;ColumnSets Collection="true"&gt;&lt;ColumnSet0 ID=""&gt;&lt;ColumnCount&gt;6&lt;/ColumnCount&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;ColumnWidth0&gt;128&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;128&lt;/ColumnWidth1&gt;&lt;ColumnWidth2&gt;128&lt;/ColumnWidth2&gt;&lt;ColumnWidth3&gt;128&lt;/ColumnWidth3&gt;&lt;ColumnWidth4&gt;128&lt;/ColumnWidth4&gt;&lt;ColumnWidth5&gt;133&lt;/ColumnWidth5&gt;&lt;EntriesCount&gt;26&lt;/EntriesCount&gt;&lt;ColIndex0&gt;0&lt;/ColIndex0&gt;&lt;Row0&gt;1&lt;/Row0&gt;&lt;Col0&gt;4&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;1&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;4&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;ColIndex2&gt;2&lt;/ColIndex2&gt;&lt;Row2&gt;3&lt;/Row2&gt;&lt;Col2&gt;2&lt;/Col2&gt;&lt;RowSpan2&gt;1&lt;/RowSpan2&gt;&lt;ColSpan2&gt;1&lt;/ColSpan2&gt;&lt;ColIndex3&gt;3&lt;/ColIndex3&gt;&lt;Row3&gt;2&lt;/Row3&gt;&lt;Col3&gt;2&lt;/Col3&gt;&lt;RowSpan3&gt;1&lt;/RowSpan3&gt;&lt;ColSpan3&gt;1&lt;/ColSpan3&gt;&lt;ColIndex4&gt;4&lt;/ColIndex4&gt;&lt;Row4&gt;2&lt;/Row4&gt;&lt;Col4&gt;3&lt;/Col4&gt;&lt;RowSpan4&gt;1&lt;/RowSpan4&gt;&lt;ColSpan4&gt;1&lt;/ColSpan4&gt;&lt;ColIndex5&gt;5&lt;/ColIndex5&gt;&lt;Row5&gt;1&lt;/Row5&gt;&lt;Col5&gt;2&lt;/Col5&gt;&lt;RowSpan5&gt;1&lt;/RowSpan5&gt;&lt;ColSpan5&gt;1&lt;/ColSpan5&gt;&lt;ColIndex6&gt;6&lt;/ColIndex6&gt;&lt;Row6&gt;0&lt;/Row6&gt;&lt;Col6&gt;0&lt;/Col6&gt;&lt;RowSpan6&gt;1&lt;/RowSpan6&gt;&lt;ColSpan6&gt;3&lt;/ColSpan6&gt;&lt;ColIndex7&gt;7&lt;/ColIndex7&gt;&lt;Row7&gt;2&lt;/Row7&gt;&lt;Col7&gt;1&lt;/Col7&gt;&lt;RowSpan7&gt;1&lt;/RowSpan7&gt;&lt;ColSpan7&gt;1&lt;/ColSpan7&gt;&lt;ColIndex8&gt;10&lt;/ColIndex8&gt;&lt;Row8&gt;5&lt;/Row8&gt;&lt;Col8&gt;2&lt;/Col8&gt;&lt;RowSpan8&gt;1&lt;/RowSpan8&gt;&lt;ColSpan8&gt;1&lt;/ColSpan8&gt;&lt;ColIndex9&gt;11&lt;/ColIndex9&gt;&lt;Row9&gt;5&lt;/Row9&gt;&lt;Col9&gt;3&lt;/Col9&gt;&lt;RowSpan9&gt;1&lt;/RowSpan9&gt;&lt;ColSpan9&gt;1&lt;/ColSpan9&gt;&lt;ColIndex10&gt;12&lt;/ColIndex10&gt;&lt;Row10&gt;3&lt;/Row10&gt;&lt;Col10&gt;1&lt;/Col10&gt;&lt;RowSpan10&gt;1&lt;/RowSpan10&gt;&lt;ColSpan10&gt;1&lt;/ColSpan10&gt;&lt;ColIndex11&gt;18&lt;/ColIndex11&gt;&lt;Row11&gt;6&lt;/Row11&gt;&lt;Col11&gt;1&lt;/Col11&gt;&lt;RowSpan11&gt;1&lt;/RowSpan11&gt;&lt;ColSpan11&gt;1&lt;/ColSpan11&gt;&lt;ColIndex12&gt;19&lt;/ColIndex12&gt;&lt;Row12&gt;5&lt;/Row12&gt;&lt;Col12&gt;1&lt;/Col12&gt;&lt;RowSpan12&gt;1&lt;/RowSpan12&gt;&lt;ColSpan12&gt;1&lt;/ColSpan12&gt;&lt;ColIndex13&gt;20&lt;/ColIndex13&gt;&lt;Row13&gt;5&lt;/Row13&gt;&lt;Col13&gt;0&lt;/Col13&gt;&lt;RowSpan13&gt;1&lt;/RowSpan13&gt;&lt;ColSpan13&gt;1&lt;/ColSpan13&gt;&lt;ColIndex14&gt;21&lt;/ColIndex14&gt;&lt;Row14&gt;6&lt;/Row14&gt;&lt;Col14&gt;2&lt;/Col14&gt;&lt;RowSpan14&gt;1&lt;/RowSpan14&gt;&lt;ColSpan14&gt;1&lt;/ColSpan14&gt;&lt;ColIndex15&gt;23&lt;/ColIndex15&gt;&lt;Row15&gt;2&lt;/Row15&gt;&lt;Col15&gt;4&lt;/Col15&gt;&lt;RowSpan15&gt;1&lt;/RowSpan15&gt;&lt;ColSpan15&gt;1&lt;/ColSpan15&gt;&lt;ColIndex16&gt;24&lt;/ColIndex16&gt;&lt;Row16&gt;1&lt;/Row16&gt;&lt;Col16&gt;0&lt;/Col16&gt;&lt;RowSpan16&gt;1&lt;/RowSpan16&gt;&lt;ColSpan16&gt;1&lt;/ColSpan16&gt;&lt;ColIndex17&gt;25&lt;/ColIndex17&gt;&lt;Row17&gt;2&lt;/Row17&gt;&lt;Col17&gt;0&lt;/Col17&gt;&lt;RowSpan17&gt;1&lt;/RowSpan17&gt;&lt;ColSpan17&gt;1&lt;/ColSpan17&gt;&lt;ColIndex18&gt;26&lt;/ColIndex18&gt;&lt;Row18&gt;3&lt;/Row18&gt;&lt;Col18&gt;0&lt;/Col18&gt;&lt;RowSpan18&gt;1&lt;/RowSpan18&gt;&lt;ColSpan18&gt;1&lt;/ColSpan18&gt;&lt;ColIndex19&gt;27&lt;/ColIndex19&gt;&lt;Row19&gt;1&lt;/Row19&gt;&lt;Col19&gt;3&lt;/Col19&gt;&lt;RowSpan19&gt;1&lt;/RowSpan19&gt;&lt;ColSpan19&gt;1&lt;/ColSpan19&gt;&lt;ColIndex20&gt;28&lt;/ColIndex20&gt;&lt;Row20&gt;3&lt;/Row20&gt;&lt;Col20&gt;3&lt;/Col20&gt;&lt;RowSpan20&gt;1&lt;/RowSpan20&gt;&lt;ColSpan20&gt;1&lt;/ColSpan20&gt;&lt;ColIndex21&gt;29&lt;/ColIndex21&gt;&lt;Row21&gt;3&lt;/Row21&gt;&lt;Col21&gt;4&lt;/Col21&gt;&lt;RowSpan21&gt;1&lt;/RowSpan21&gt;&lt;ColSpan21&gt;1&lt;/ColSpan21&gt;&lt;ColIndex22&gt;32&lt;/ColIndex22&gt;&lt;Row22&gt;0&lt;/Row22&gt;&lt;Col22&gt;5&lt;/Col22&gt;&lt;RowSpan22&gt;1&lt;/RowSpan22&gt;&lt;ColSpan22&gt;1&lt;/ColSpan22&gt;&lt;ColIndex23&gt;33&lt;/ColIndex23&gt;&lt;Row23&gt;1&lt;/Row23&gt;&lt;Col23&gt;5&lt;/Col23&gt;&lt;RowSpan23&gt;1&lt;/RowSpan23&gt;&lt;ColSpan23&gt;1&lt;/ColSpan23&gt;&lt;ColIndex24&gt;34&lt;/ColIndex24&gt;&lt;Row24&gt;2&lt;/Row24&gt;&lt;Col24&gt;5&lt;/Col24&gt;&lt;RowSpan24&gt;1&lt;/RowSpan24&gt;&lt;ColSpan24&gt;1&lt;/ColSpan24&gt;&lt;ColIndex25&gt;35&lt;/ColIndex25&gt;&lt;Row25&gt;1&lt;/Row25&gt;&lt;Col25&gt;1&lt;/Col25&gt;&lt;RowSpan25&gt;1&lt;/RowSpan25&gt;&lt;ColSpan25&gt;1&lt;/ColSpan25&gt;&lt;/ColumnSet0&gt;&lt;/ColumnSets&gt;&lt;Columns Collection="true"&gt;&lt;Column0 ID="JobID"&gt;&lt;Caption&gt;JobID&lt;/Caption&gt;&lt;DataMember&gt;JobID&lt;/DataMember&gt;&lt;Key&gt;JobID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="BuildingType"&gt;&lt;Caption&gt;BuildingType&lt;/Caption&gt;&lt;DataMember&gt;BuildingType&lt;/DataMember&gt;&lt;Key&gt;BuildingType&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="CostType"&gt;&lt;Caption&gt;CostType&lt;/Caption&gt;&lt;DataMember&gt;CostType&lt;/DataMember&gt;&lt;Key&gt;CostType&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="ReportContract"&gt;&lt;Caption&gt;ReportContract&lt;/Caption&gt;&lt;DataMember&gt;ReportContract&lt;/DataMember&gt;&lt;Key&gt;ReportContract&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="VendorID"&gt;&lt;Caption&gt;VendorID&lt;/Caption&gt;&lt;DataMember&gt;VendorID&lt;/DataMember&gt;&lt;Key&gt;VendorID&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="ProviderID"&gt;&lt;Caption&gt;ProviderID&lt;/Caption&gt;&lt;DataMember&gt;ProviderID&lt;/DataMember&gt;&lt;Key&gt;ProviderID&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="QuantityID"&gt;&lt;Caption&gt;Quantity Description&lt;/Caption&gt;&lt;DataMember&gt;QuantityID&lt;/DataMember&gt;&lt;Key&gt;QuantityID&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;384&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="Description"&gt;&lt;Caption&gt;Item&lt;/Caption&gt;&lt;DataMember&gt;Description&lt;/DataMember&gt;&lt;Key&gt;Description&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="CostAmt"&gt;&lt;Caption&gt;CostAmt&lt;/Caption&gt;&lt;DataMember&gt;CostAmt&lt;/DataMember&gt;&lt;Key&gt;CostAmt&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="CostAdjustment"&gt;&lt;Caption&gt;CostAdjustment&lt;/Caption&gt;&lt;DataMember&gt;CostAdjustment&lt;/DataMember&gt;&lt;Key&gt;CostAdjustment&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="CostAdjusted"&gt;&lt;Caption&gt;CostAdjusted &lt;/Caption&gt;&lt;DataMember&gt;CostAdjusted&lt;/DataMember&gt;&lt;Key&gt;CostAdjusted&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="EstimateCost"&gt;&lt;Caption&gt;EstimatedCost &lt;/Caption&gt;&lt;DataMember&gt;EstimateCost&lt;/DataMember&gt;&lt;Key&gt;EstimateCost&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="Location"&gt;&lt;Caption&gt;Location&lt;/Caption&gt;&lt;DataMember&gt;Location&lt;/DataMember&gt;&lt;Key&gt;Location&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="active"&gt;&lt;Caption&gt;active&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;active&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;active&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column13&gt;&lt;Column14 ID="QuantityRoundUp"&gt;&lt;Caption&gt;QuantityRoundUp&lt;/Caption&gt;&lt;DataMember&gt;QuantityRoundUp&lt;/DataMember&gt;&lt;Key&gt;QuantityRoundUp&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column14&gt;&lt;Column15 ID="QuantityWaste"&gt;&lt;Caption&gt;QuantityWaste&lt;/Caption&gt;&lt;DataMember&gt;QuantityWaste&lt;/DataMember&gt;&lt;Key&gt;QuantityWaste&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column15&gt;&lt;Column16 ID="QuantityReuse"&gt;&lt;Caption&gt;QuantityReuse&lt;/Caption&gt;&lt;DataMember&gt;QuantityReuse&lt;/DataMember&gt;&lt;Key&gt;QuantityReuse&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column16&gt;&lt;Column17 ID="QuantityMinimum"&gt;&lt;Caption&gt;QuantityMinimum&lt;/Caption&gt;&lt;DataMember&gt;QuantityMinimum&lt;/DataMember&gt;&lt;Key&gt;QuantityMinimum&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column17&gt;&lt;Column18 ID="PiecePerUnitOrder"&gt;&lt;Caption&gt;Piece Per Unit Order&lt;/Caption&gt;&lt;DataMember&gt;PiecePerUnitOrder&lt;/DataMember&gt;&lt;Key&gt;PiecePerUnitOrder&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column18&gt;&lt;Column19 ID="Units"&gt;&lt;Caption&gt;Units&lt;/Caption&gt;&lt;DataMember&gt;Units&lt;/DataMember&gt;&lt;Key&gt;Units&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column19&gt;&lt;Column20 ID="Quantity"&gt;&lt;Caption&gt;Quantity&lt;/Caption&gt;&lt;DataMember&gt;Quantity&lt;/DataMember&gt;&lt;Key&gt;Quantity&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column20&gt;&lt;Column21 ID="UnitsOrder"&gt;&lt;Caption&gt;UnitsOrder&lt;/Caption&gt;&lt;DataMember&gt;UnitOrder&lt;/DataMember&gt;&lt;Key&gt;UnitsOrder&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column21&gt;&lt;Column22 ID="QuantityAdjustment"&gt;&lt;Caption&gt;QuantityAdjustment&lt;/Caption&gt;&lt;DataMember&gt;QuantityAdjustment&lt;/DataMember&gt;&lt;Key&gt;QuantityAdjustment&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column22&gt;&lt;Column23 ID="ZipCode"&gt;&lt;Caption&gt;Zip Code&lt;/Caption&gt;&lt;DataMember&gt;LocationZipCode&lt;/DataMember&gt;&lt;DefaultGroupPrefix&gt;ZipCode:&lt;/DefaultGroupPrefix&gt;&lt;Key&gt;ZipCode&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column23&gt;&lt;Column24 ID="Division"&gt;&lt;Caption&gt;Division&lt;/Caption&gt;&lt;DataMember&gt;Division&lt;/DataMember&gt;&lt;Key&gt;Division&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column24&gt;&lt;Column25 ID="DivisionCost"&gt;&lt;Caption&gt;DivisionCost&lt;/Caption&gt;&lt;DataMember&gt;DivisionCost&lt;/DataMember&gt;&lt;Key&gt;DivisionCost&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column25&gt;&lt;Column26 ID="DivisionPrint"&gt;&lt;Caption&gt;DivisionPrint&lt;/Caption&gt;&lt;DataMember&gt;DivisionPrint&lt;/DataMember&gt;&lt;Key&gt;DivisionPrint&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column26&gt;&lt;Column27 ID="ReportPhase"&gt;&lt;Caption&gt;ReportPhase&lt;/Caption&gt;&lt;DataMember&gt;ReportPhase&lt;/DataMember&gt;&lt;Key&gt;ReportPhase&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column27&gt;&lt;Column28 ID="ManufactureID"&gt;&lt;Caption&gt;ManufactureID&lt;/Caption&gt;&lt;DataMember&gt;ManufactureID&lt;/DataMember&gt;&lt;Key&gt;ManufactureID&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column28&gt;&lt;Column29 ID="Date"&gt;&lt;Caption&gt;Date&lt;/Caption&gt;&lt;DataMember&gt;Date&lt;/DataMember&gt;&lt;Key&gt;Date&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column29&gt;&lt;Column30 ID="RunDateTime"&gt;&lt;Caption&gt;RunDateTime&lt;/Caption&gt;&lt;DataMember&gt;RunDateTime&lt;/DataMember&gt;&lt;Key&gt;RunDateTime&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column30&gt;&lt;Column31 ID="User"&gt;&lt;Caption&gt;User&lt;/Caption&gt;&lt;DataMember&gt;User&lt;/DataMember&gt;&lt;Key&gt;User&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column31&gt;&lt;Column32 ID="Job"&gt;&lt;Caption&gt;Job&lt;/Caption&gt;&lt;DataMember&gt;Job&lt;/DataMember&gt;&lt;Key&gt;Job&lt;/Key&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column32&gt;&lt;Column33 ID="Owner"&gt;&lt;Caption&gt;Owner&lt;/Caption&gt;&lt;DataMember&gt;Owner&lt;/DataMember&gt;&lt;Key&gt;Owner&lt;/Key&gt;&lt;Position&gt;33&lt;/Position&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column33&gt;&lt;Column34 ID="Project"&gt;&lt;Caption&gt;Project&lt;/Caption&gt;&lt;DataMember&gt;Project&lt;/DataMember&gt;&lt;Key&gt;Project&lt;/Key&gt;&lt;Position&gt;34&lt;/Position&gt;&lt;Width&gt;133&lt;/Width&gt;&lt;/Column34&gt;&lt;Column35 ID="Expression"&gt;&lt;Caption&gt;Expression&lt;/Caption&gt;&lt;DataMember&gt;Expression&lt;/DataMember&gt;&lt;Key&gt;Expression&lt;/Key&gt;&lt;Position&gt;35&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;/Column35&gt;&lt;/Columns&gt;&lt;ColumnSetRowCount&gt;7&lt;/ColumnSetRowCount&gt;&lt;GroupCondition ID="" /&gt;&lt;/RootTable&gt;&lt;DropDowns Collection="true"&gt;&lt;DropDown0&gt;&lt;RootTable&gt;&lt;Columns Collection="true"&gt;&lt;Column0 ID="Group"&gt;&lt;DataMember&gt;Description&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;Key&gt;Group&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;/Columns&gt;&lt;GroupCondition ID="" /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Microsoft Sans Serif, 8.25pt&lt;/Font&gt;&lt;ControlStyle /&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnHeaders&gt;False&lt;/ColumnHeaders&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;Key&gt;GroupDescription&lt;/Key&gt;&lt;DisplayMember&gt;Description&lt;/DisplayMember&gt;&lt;ValueMember&gt;Description&lt;/ValueMember&gt;&lt;/DropDown0&gt;&lt;DropDown1&gt;&lt;RootTable&gt;&lt;Columns Collection="true"&gt;&lt;Column0 ID="Type"&gt;&lt;DataMember&gt;Description&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;Key&gt;Type&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;/Columns&gt;&lt;GroupCondition ID="" /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Microsoft Sans Serif, 8.25pt&lt;/Font&gt;&lt;ControlStyle /&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnHeaders&gt;False&lt;/ColumnHeaders&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;Key&gt;TypeDescription&lt;/Key&gt;&lt;DisplayMember&gt;Description&lt;/DisplayMember&gt;&lt;ValueMember&gt;Description&lt;/ValueMember&gt;&lt;/DropDown1&gt;&lt;/DropDowns&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Microsoft Sans Serif, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Office2003&lt;/VisualStyle&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;GroupMode&gt;Collapsed&lt;/GroupMode&gt;&lt;HideColumnsWhenGrouped&gt;True&lt;/HideColumnsWhenGrouped&gt;&lt;SelectionMode&gt;MultipleSelection&lt;/SelectionMode&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="printDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>289, 17</value>
+  </metadata>
+  <metadata name="cmHeader.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>187, 17</value>
+  </metadata>
+  <metadata name="uiCmdManagerMenuBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAIAC
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAHd3d3d3d3d3d3d3d3d3dwD3d3d3d3
+        d3d3d3d3d3d3cA/4iIiIiIiIiIiIiIiIh3AP+IiIiIiIiIiIiIiIiIdwD/iIiIiIiIiIiIiIiIiHcA/4
+        j/iP+I/4j/iP+I/4h3AP+ID4gPiA+ID4gPiA+IdwD/iIiIiIiIiIiIiIiIiHcA/4iIiIiIiIiIiIiIiI
+        h3AP+I/4j/iIiI/4iIiIiIdwD/iA+IAPiIiAD4iIiIiHcA/4iIiAD4iIgA+IiIiIh3AP+IiIiID4iAiA
+        +IiIiIdwD/iP+IiID/CIiA/4iIiHcA/4gPiIiIAPiIiAD4iIh3AP+IiIiIiAD4iIgA+IiIdwD/iIiIiI
+        iIiIiIiA+IiHcA/4j/iIiIiIiIiIiA/4h3AP+ID4iIiIiIiIiIiAD4dwD/iIiIiIiIiIiIiIgA+HcA/4
+        iIiIiIiIiIiIiIiIh3AP+I/4iIiIiIiIiIiIiIdwD/iA+IiIiIiIiIiIiIiHcA/4iIiIiIiIiIiIiIiI
+        h3AP+IiIiIiIiIiIiIiIiIdwD/iIiIiIiIiIiIiIiIiHcA/4iIiIiIiIiIiIiIiIh3AP+IiIiIiIiIiI
+        iIiIiIdwD//////////////////3cA///////////////////3AAAAAAAAAAAAAAAAAAAAAAgAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA
+        AAEoAAAAEAAAACAAAAABAAQAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAB3d3d3d3
+        d3APiIiIiIiIcA8ICAgICAhwD4j/iP+IiHAPCAD4APiIcA+IAP8A/4hwDwiIAPgA+HAPiIgA+AD/cA8I
+        iIiIiABwD4iIiIiIAHAPCIiIiIiIcA+IiIiIiIhwD4iIiIiIiHAP////////8AAAAAAAAAAAgAEAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAA==
+</value>
+  </data>
+</root>

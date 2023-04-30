@@ -1,0 +1,54 @@
+[OPTIONS]
+Binary TOC=No
+Binary Index=Yes
+Compatibility=1.1 or later
+Compiled file=OEB1.chm
+Contents file=OEB1.hhc
+Default Window=$global_main
+Default topic=introduction.htm
+Display compile progress=No
+Error log file=G:\Data\Object_Estimating\Data\Help\HTMLHelp\OEB1.log
+Full-text search=Yes
+Full text search stop list file=stoplist.txt
+Index file=OEB1.hhk
+Title=OEB1.chm
+Language=0x409 English
+
+[WINDOWS]
+_d2hpopup=,,,,,,,,,,,,[271,372,593,566],,0x88,,,,,
+$global_main="OEB1","OEB1.hhc","OEB1.hhk","introduction.htm","introduction.htm",," ",," ",0x60520,200,0x3006,[10,10,630,530],0x0,0x0,,,0,,
+$global_proc="OEB1","OEB1.hhc","OEB1.hhk","introduction.htm","introduction.htm",," ",," ",0x40000,200,0x0,[700,10,1015,510],0x0,0x0,,,0,,
+
+[FILES]
+introduction.htm
+purpose.htm
+scope.htm
+identifyyouraudience.htm
+organizetomeetyourreadersneeds.htm
+useaquestionandanswerformat.htm
+useyouandotherpronounstospeakdirectlytoreaders.htm
+usetheactivevoice.htm
+usetheappropriatetone.htm
+useshortsentences.htm
+writetoonepersonnottoagroup.htm
+usethesimplesttenseyoucan.htm
+usemusttoconveyrequirements.htm
+placewordscarefully.htm
+useifthentables.htm
+avoidwordsandconstructionsthatcauseconfusion.htm
+usecontractionswhenappropriate.htm
+uselotsofinformativeheadings.htm
+writeshortsections.htm
+includeonlyoneissueineachdesignatedparagraph.htm
+useverticallists.htm
+usetables.htm
+usetestedemphasistechniquestohighlightimportantpoints.htm
+glossaryofterms.htm
+DocToHelp.js
+properties.xml
+
+[MAP]
+#include OEB1.h
+
+[ALIAS]
+#include OEB1.ali

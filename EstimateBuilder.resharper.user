@@ -1,0 +1,30 @@
+<Configuration>
+  <CompletionStatisticsManager />
+  <EditorManager>
+    <RecentFiles>
+      <File id="807F1305-E8BF-44D7-AADC-31D8C805C074/d:Grid/f:frmShowFields.cs" caret="0" visual-x="0" visual-y="1020" />
+      <File id="807F1305-E8BF-44D7-AADC-31D8C805C074/d:Grid/f:frmImport.cs" caret="1672" visual-x="0" visual-y="10200" />
+      <File id="807F1305-E8BF-44D7-AADC-31D8C805C074/d:DataForms/f:Expression.cs" caret="0" visual-x="0" visual-y="5712" />
+      <File id="807F1305-E8BF-44D7-AADC-31D8C805C074/d:DataControls/f:Expression.cs" caret="42717" visual-x="0" visual-y="14654" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+    <DecorateModifiers>False</DecorateModifiers>
+  </ReFormatCode>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

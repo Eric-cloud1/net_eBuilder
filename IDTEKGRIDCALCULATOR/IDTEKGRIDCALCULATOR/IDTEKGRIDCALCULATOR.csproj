@@ -1,0 +1,356 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{947E6067-CC37-40DE-A927-E768D0C3C72B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IDTEKGRIDCALCULATOR</RootNamespace>
+    <AssemblyName>IDTEKGRIDCALCULATOR</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationFolders\ApplicationBuilder.cs" />
+    <Compile Include="ApplicationFolders\AssemblyData.cs" />
+    <Compile Include="ApplicationFolders\ContactData.cs" />
+    <Compile Include="ApplicationFolders\CostAmountData.cs" />
+    <Compile Include="ApplicationFolders\CostItemData.cs" />
+    <Compile Include="ApplicationFolders\DivisionData.cs" />
+    <Compile Include="ApplicationFolders\DragAndDropListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationFolders\EstimateData.cs" />
+    <Compile Include="ApplicationFolders\Export.cs" />
+    <Compile Include="ApplicationFolders\ExpressionData.cs" />
+    <Compile Include="ApplicationFolders\JobData.cs" />
+    <Compile Include="ApplicationFolders\Operators.cs" />
+    <Compile Include="ApplicationFolders\pullDown.cs" />
+    <Compile Include="ApplicationFolders\QuantityData.cs" />
+    <Compile Include="ApplicationFolders\SettingsData.cs" />
+    <Compile Include="ApplicationFolders\stSQL.cs" />
+    <Compile Include="ApplicationFolders\TakeOffData.cs" />
+    <Compile Include="ApplicationFolders\ValidationSystemData.cs" />
+    <Compile Include="ApplicationFolders\ValidationUserData.cs" />
+    <Compile Include="DataForms\Assembly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\Contact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\CostAmount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataForms\CostItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\DataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\Expression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\frmLargeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\frmLargeForm.Designer.cs">
+      <DependentUpon>frmLargeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataForms\Job.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\Quantity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\TakeOff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\ValidationSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataForms\ValidationUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataProviders\AssemblyDataProvider.cs" />
+    <Compile Include="DataProviders\ContactDataProvider.cs" />
+    <Compile Include="DataProviders\CostAmountDataProvider.cs" />
+    <Compile Include="DataProviders\CostItemDataProvider.cs" />
+    <Compile Include="DataProviders\DivisionDataProvider.cs" />
+    <Compile Include="DataProviders\EstimateDataProvider.cs" />
+    <Compile Include="DataProviders\ExpressionDataProvider.cs" />
+    <Compile Include="DataProviders\JobDataProvider.cs" />
+    <Compile Include="DataProviders\ListDataProvider.cs" />
+    <Compile Include="DataProviders\QuantityDataProvider.cs" />
+    <Compile Include="DataProviders\SettingDataProvider.cs" />
+    <Compile Include="DataProviders\TakeOffDataProvider.cs" />
+    <Compile Include="DataProviders\ValidationSystemDataProvider.cs" />
+    <Compile Include="DataProviders\ValidationUserDataProvider.cs" />
+    <Compile Include="GridExDialogs\AssemblyMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\ContactMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\CostAmountMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\CostItemMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\EstimateMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\ExpressionMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\JobMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\QuantityMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\TakeoffMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\ValidationSystemMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridExDialogs\ValidationUserMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmDefineViews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmFilter.Designer.cs">
+      <DependentUpon>frmFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grid\frmFormatConditions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmFormatView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmGroupBy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmImport.designer.cs">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grid\frmPrintPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmSaveTakeOff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmSaveTakeOff.Designer.cs">
+      <DependentUpon>frmSaveTakeOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grid\frmShowFields.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmSort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\frmViewSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grid\Grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DataForms\Assembly.resx">
+      <DependentUpon>Assembly.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\Contact.resx">
+      <DependentUpon>Contact.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\CostAmount.resx">
+      <DependentUpon>CostAmount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\CostItem.resx">
+      <DependentUpon>CostItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\DataForm.resx">
+      <DependentUpon>DataForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\Expression.resx">
+      <DependentUpon>Expression.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\Job.resx">
+      <DependentUpon>Job.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\Quantity.resx">
+      <DependentUpon>Quantity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\TakeOff.resx">
+      <DependentUpon>TakeOff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\ValidationSystem.resx">
+      <DependentUpon>ValidationSystem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataForms\ValidationUser.resx">
+      <DependentUpon>ValidationUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\AssemblyMDI.resx">
+      <DependentUpon>AssemblyMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\ContactMDI.resx">
+      <DependentUpon>ContactMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\CostAmountMDI.resx">
+      <DependentUpon>CostAmountMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\CostItemMDI.resx">
+      <DependentUpon>CostItemMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\EstimateMDI.resx">
+      <DependentUpon>EstimateMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\ExpressionMDI.resx">
+      <DependentUpon>ExpressionMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\JobMDI.resx">
+      <DependentUpon>JobMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\QuantityMDI.resx">
+      <DependentUpon>QuantityMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\TakeoffMDI.resx">
+      <DependentUpon>TakeoffMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\ValidationSystemMDI.resx">
+      <DependentUpon>ValidationSystemMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridExDialogs\ValidationUserMDI.resx">
+      <DependentUpon>ValidationUserMDI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmDefineViews.resx">
+      <DependentUpon>frmDefineViews.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmFormatConditions.resx">
+      <DependentUpon>frmFormatConditions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmFormatView.resx">
+      <DependentUpon>frmFormatView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmGroupBy.resx">
+      <DependentUpon>frmGroupBy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmPrintPreview.resx">
+      <DependentUpon>frmPrintPreview.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmSaveTakeOff.resx">
+      <DependentUpon>frmSaveTakeOff.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmShowFields.resx">
+      <DependentUpon>frmShowFields.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmSort.resx">
+      <DependentUpon>frmSort.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\frmViewSummary.resx">
+      <DependentUpon>frmViewSummary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grid\Grid.resx">
+      <DependentUpon>Grid.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Data\IDTEK.ini" />
+    <None Include="Idigitaltek.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
